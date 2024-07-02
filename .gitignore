@@ -1,0 +1,18 @@
+# Ignore the .idea directory
+.idea/
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore the database file
+bot_data.db
+
+# Ignore all .pyc files
+*.pyc
+
+# Ignore the app directory
+app/
+
+
+# git ignore
+.gitignore/
