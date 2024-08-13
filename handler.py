@@ -3,6 +3,7 @@ import asyncio
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.fsm.context import FSMContext
 from sqlalchemy import select, Column, Integer, String
+from keep_alive import keep_alive
 import re
 from typing import Any, Awaitable, Callable, Dict
 from aiogram import BaseMiddleware
