@@ -19,7 +19,7 @@ DATABASE_URL = "sqlite+aiosqlite:///dp.sqlite3"
 engine = create_async_engine(DATABASE_URL)
 async_session = async_sessionmaker(engine)
 Base = declarative_base()
-API_TOKEN = '7362272318:AAHIk8ovQbeCboyNMOd63iP4GJ6BHm2o7IY'
+API_TOKEN = '7234794963:AAEdW_vwTBEAqTBSRGVJk2bXB5LKzrNiSUg'
 bot = Bot(token=API_TOKEN)
 # Keyboards
 language_keyboard = ReplyKeyboardMarkup(
