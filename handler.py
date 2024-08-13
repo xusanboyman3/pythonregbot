@@ -899,6 +899,7 @@ print('working')
 
 if __name__ == "__main__":
     try:
+        keep_alive()
         asyncio.run(main())
     except KeyboardInterrupt:
         print("Exit")
